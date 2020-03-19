@@ -6,10 +6,13 @@
 	<title>Contador</title>
 	<style>
 		.text {
-			font-size: 200px;
+			font-size: 270px;
+		}
+		.number {
+			font-size: 300px;
 		}
 		.red {
-			background: red;
+			color: red;
 		}
 	</style>
 </head>
@@ -19,7 +22,7 @@
 			<button type="button" class="btn btn-success" v-on:click="increment">Aumentar</button>
 			<button type="button" class="btn btn-danger" v-on:click="decrement">Disminuir</button>
 			<button type="button" class="btn btn-danger" v-on:click="reset">Reiniciar</button>
-			<h1 class="mt-5 text">Número</h1>
+			<h1 class="mt-5 number">Número</h1>
 			<p class="text red">{{ numero }}</p>
 		</div>
 	</div>
